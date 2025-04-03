@@ -1,9 +1,10 @@
+<!--The design is fully responsive and will look good on all device sizes.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Techno Portfolio</title>
+    <title>My Portfolio</title>
     <style>
         :root {
             --primary: #00ff9d;
@@ -454,11 +455,13 @@
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+ <!--Main.-->
 <body>
     <header>
         <div class="container">
             <nav>
-                <div class="logo">DEV_PORTFOLIO</div>
+                <div class="logo">MY PORTFOLIO</div>
+                <!--links to other pages.-->
                 <ul class="nav-links">
                     <li><a href="#home" class="nav-link active" data-tab="home">Home</a></li>
                     <li><a href="#about" class="nav-link" data-tab="about">About</a></li>
@@ -472,16 +475,18 @@
         </div>
     </header>
 
+     <!--Home page.-->
     <section id="home" class="tab-content active">
         <div class="hero">
+             <!--links to other pages.-->
             <div class="hero-content">
-                <h1>HI, I'M <span style="color: var(--secondary);">[YOUR NAME]</span></h1>
-                <p>A passionate developer with expertise in multiple programming languages and a drive to create innovative solutions.</p>
+                <h1>HI, I'M <span style="color: var(--secondary);">Tebogo Boloko </span></h1>
+                <p>A passionate IT enthusiast with skills in multiple programming languages and a drive to create innovative solutions.</p>
                 <a href="#skills" class="btn" data-tab="skills">View My Skills</a>
             </div>
         </div>
     </section>
-
+     <!--About pages.-->
     <section id="about" class="tab-content">
         <div class="container">
             <h2>About Me</h2>
@@ -491,9 +496,9 @@
                 </div>
                 <div style="flex: 2;">
                     <h3>Who Am I?</h3>
-                    <p>I'm a dedicated software developer with [X] years of experience in building web applications, mobile apps, and solving complex problems with code. My journey in technology began when I was [age] and has been an exciting adventure ever since.</p>
-                    <p>I specialize in [your specialties], but I'm always eager to learn new technologies and expand my skill set. I believe in writing clean, efficient, and maintainable code that not only works but is also a pleasure to work with.</p>
-                    <p>When I'm not coding, you can find me [your hobbies/interests outside coding]. I'm passionate about [something you're passionate about] and always looking for new challenges that push me out of my comfort zone.</p>
+                    <p>I'm a dedicated software developer with close to 5 years of experience in IT Support, IT systems admin, software developer, and solving day to day problems with code. My journey in technology began when I was University as i had no proir knowledge before being a student.</p>
+                    <p>I specialize in It support, software development, game development, Hardware and Network as well as cyber security, but I'm always eager to learn new technologies and expand my skill set. I believe in writing clean, efficient, and maintainable code that not only works but is also a pleasure to work with.</p>
+                    <p>When I'm not coding, you can find me watching sports, playing video games, or trading currencies. I'm passionate about Engineering and Electronics and always looking for new challenges that push me out of my comfort zone.</p>
                     <div style="margin-top: 30px;">
                         <a href="#contact" class="btn" data-tab="contact">Get In Touch</a>
                     </div>
@@ -503,6 +508,7 @@
     </section>
 
     <section id="skills" class="tab-content">
+         <!--About pages.-->
         <div class="container">
             <h2>Programming Skills</h2>
             <p>Here are the programming languages and technologies I'm proficient in:</p>
@@ -511,87 +517,93 @@
                 <div class="skill-card">
                     <i class="fab fa-js"></i>
                     <h3>JavaScript</h3>
-                    <p>Advanced knowledge of ES6+, Node.js, and modern frameworks like React and Vue.</p>
+                    <p>Advanced knowledge JS and frameworks like React, Node.js and Angular.</p>
                 </div>
                 
                 <div class="skill-card">
                     <i class="fab fa-python"></i>
                     <h3>Python</h3>
-                    <p>Experience with Django, Flask, data analysis, and automation scripts.</p>
+                    <p>Basic knowledge.</p>
                 </div>
                 
                 <div class="skill-card">
                     <i class="fab fa-java"></i>
                     <h3>Java</h3>
-                    <p>Strong OOP fundamentals and experience with Spring Boot applications.</p>
+                    <p>Advanced knowledge with strong OOP fundamentals.</p>
                 </div>
                 
                 <div class="skill-card">
                     <i class="fas fa-database"></i>
                     <h3>SQL</h3>
-                    <p>Database design, optimization, and complex query writing.</p>
+                    <p>Basic knowledge of Database design, optimization, and query writing.</p>
                 </div>
                 
                 <div class="skill-card">
                     <i class="fab fa-html5"></i>
                     <h3>HTML/CSS</h3>
-                    <p>Semantic markup, responsive design, and modern CSS techniques.</p>
+                    <p>Expert in Semantic markup, responsive design, and modern CSS techniques.</p>
                 </div>
                 
                 <div class="skill-card">
                     <i class="fab fa-git-alt"></i>
                     <h3>Git</h3>
-                    <p>Version control, branching strategies, and collaborative workflows.</p>
+                    <p>Basic Version control, branching strategies, and collaborative workflows.</p>
                 </div>
             </div>
         </div>
     </section>
-
+    <!--Education pages.-->
     <section id="education" class="tab-content">
         <div class="container">
             <h2>Educational Background</h2>
-            <p>My academic journey and continuous learning path:</p>
+            <p>My Academic journey and continuous learning path:</p>
             
+            <!--Timeline Events.-->
             <div class="timeline">
-                <div class="timeline-item left">
-                    <div class="timeline-content">
-                        <h3>Master's in Computer Science</h3>
-                        <p><strong>University of Technology</strong> | 2020 - 2022</p>
-                        <p>Specialized in Artificial Intelligence and Machine Learning. Thesis on "Neural Networks for Image Recognition".</p>
-                    </div>
-                </div>
-                
-                <div class="timeline-item right">
-                    <div class="timeline-content">
-                        <h3>Bachelor's in Software Engineering</h3>
-                        <p><strong>State University</strong> | 2016 - 2020</p>
-                        <p>Graduated with honors. Focused on software architecture and web development.</p>
-                    </div>
-                </div>
-                
+
+                <!--Highschool-->
                 <div class="timeline-item left">
                     <div class="timeline-content">
                         <h3>High School Diploma</h3>
-                        <p><strong>Tech High School</strong> | 2012 - 2016</p>
-                        <p>Specialized in mathematics and computer science. Won several programming competitions.</p>
+                        <p><strong>Elmar College</strong> | 1997 - 2011</p>
+                        <p>Basic Highschool, average student.</p>
                     </div>
                 </div>
                 
+                <!--University-->
                 <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>National Diploma in Information Technology</h3>
+                        <p><strong>Tshwane University of Technology</strong> | 2013 - 2017</p>
+                        <p>Focus was on computer science and mulitimedia.</p>
+                    </div>
+                </div>
+
+                <!--Own time-->
+                <div class="timeline-item left">
                     <div class="timeline-content">
                         <h3>Online Certifications</h3>
                         <p><strong>Various Platforms</strong> | Ongoing</p>
-                        <p>Continuously expanding my knowledge with courses on cloud computing, blockchain, and advanced algorithms.</p>
+                        <p>Continuously expanding my knowledge with courses on cyber security, Mobile Phone Reparing and Hardware and Networks.</p>
+                    </div>
+                </div>
+                
+                <!--CV-->
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>Please download my CV for more info </h3>
+                        <a href="/TebogoBolokoCV.pdf" class="btn" data-tab="file document"> Get CV </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!--My projects page.-->
     <section id="projects" class="tab-content">
         <div class="container">
             <h2>My Projects</h2>
-            <p>A selection of my recent work and contributions:</p>
+            <p>I do not have any recent projects at the moment but below are future projects:</p>
             
             <div class="projects-grid">
                 <div class="project-card">
@@ -638,7 +650,7 @@
             </div>
         </div>
     </section>
-
+    <!--My interest page.-->
     <section id="interests" class="tab-content">
         <div class="container">
             <h2>My Interests</h2>
@@ -683,7 +695,7 @@
             </div>
         </div>
     </section>
-
+    <!--My interest page.-->
     <section id="contact" class="tab-content">
         <div class="container">
             <h2>Get In Touch</h2>
@@ -714,7 +726,7 @@
             </form>
         </div>
     </section>
-
+    <!--My footer-->
     <footer>
         <div class="container">
             <ul class="social-links">
@@ -724,11 +736,11 @@
                 <li><a href="#"><i class="fab fa-stack-overflow"></i></a></li>
                 <li><a href="#"><i class="fas fa-envelope"></i></a></li>
             </ul>
-            <p>&copy; 2023 My Techno Portfolio. All rights reserved.</p>
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
         </div>
     </footer>
 
-    <script>
+   <script>
         // Tab switching functionality
         document.addEventListener('DOMContentLoaded', function() {
             const navLinks = document.querySelectorAll('.nav-link');
@@ -791,5 +803,7 @@
             }
         });
     </script>
+
 </body>
+<!--End of main-->
 </html>
